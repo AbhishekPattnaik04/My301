@@ -1,15 +1,15 @@
 variable "key_name" {
-  default = "devops-my-aws-keypair"
+  default = "capstone301"
 }
 
 variable "pvt_key" {
-  default = "/root/.ssh/amit-personal-aws.pem"
+  default = "/root/.ssh/capstone301.pem"
 }
 
 variable "us-east-zones" {
-  default = ["us-east-1a", "us-east-1b"]
+  default = ["us-east-2b"]
 }
 
 variable "sg-id" {
-  default = "sg-00c3c981ea2a2ad80"
+  default = "sg-0aa372d197dc34c80"
 }
