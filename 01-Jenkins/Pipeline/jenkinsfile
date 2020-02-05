@@ -4,7 +4,7 @@ node {
 
      
   stage('Git-Checkout') {
-   git 'https://github.com/AbhishekPattnaik04/myDeployment.git'
+   git 'https://github.com/AbhishekPattnaik04/My301.git'
   }
     
  def project_path="01-Jenkins/Code/BikeDealers"
