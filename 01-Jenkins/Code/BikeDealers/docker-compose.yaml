@@ -2,7 +2,7 @@ version: '2'
 
 
 services:
-  collegebranch:
+  bikedealers:
     build: . 
     ports:
       - '30080:8080'
