@@ -53,7 +53,7 @@ node {
     def downloadSpec = """{
     "files": [
     {
-      "pattern": "petclinic/*.war",
+      "pattern": "Bike/*.war",
       "target": "/home/mtadminnuvepro/artifacts/"
       
     }
