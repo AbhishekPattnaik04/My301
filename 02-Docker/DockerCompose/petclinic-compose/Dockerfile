@@ -1,3 +1,3 @@
-FROM tomcat:8.0
-MAINTAINER Amit
-COPY petclinic.war /usr/local/tomcat/webapps/
+FROM tomcat:9.0
+MAINTAINER Abhishek
+COPY BikeDealers.war /usr/local/tomcat/webapps/
