@@ -41,25 +41,12 @@ node {
         def server= Artifactory.server 'Artifactory'
                     def uploadSpec= """{
                         "files": [{
-                        "pattern": "/root/.jenkins/workspace/301DevOps/01-Jenkins/Code/BikeDealers/target/*.war",
+                        "pattern": "target/*.war",
                         "target": "Bike"}]
                     }"""
         server.upload(uploadSpec)
         
         }
-     
-    stage('Jfrog Artifactory download'){
-    def server= Artifactory.server 'Artifactory'
-    def downloadSpec = """{
-    "files": [
-    {
-      "pattern": "Bike/*.war",
-      "target": "/home/mtadminnuvepro/artifacts/"
-      
-    }
-    ]
-    }"""
-    server.download(downloadSpec)
    
 }
    stage('Docker-Stage-Deployment') {
