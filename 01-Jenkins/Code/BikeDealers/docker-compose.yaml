@@ -5,4 +5,4 @@ services:
   bikedealers:
     build: . 
     ports:
-      - '8090:8080'
+      - '30090:8080'
