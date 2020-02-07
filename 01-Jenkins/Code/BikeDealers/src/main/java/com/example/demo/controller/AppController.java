@@ -30,7 +30,7 @@ public class AppController {
 	@Autowired
 	private dealersService dealersService;
 
-	@GetMapping("/")
+	@GetMapping("/bike")
 	public String index() {
 		return "index";
 	}
